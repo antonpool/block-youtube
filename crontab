@@ -1,13 +1,8 @@
 #предварительно выполняем команду sudo echo "#127.0.0.1 youtube.com www.youtube.com" >> /etc/hosts
 
-<<<<<<< HEAD
-
 * * * * 1-5 sed -i 's/#127.0.0.1 youtube.com www.youtube.com/127.0.0.1 youtube.com www.youtube.com/' /etc/hosts
 * * * * 0,6 sed -i 's/127.0.0.1 youtube.com www.youtube.com/#127.0.0.1 youtube.com www.youtube.com/' /etc/hosts
 
 #заполняем рутовский кронтаб для получения прав редактирования файла /etc/hosts     
 #используем команду  sudo crontab -eu root
 #для файла hosts используем жесткую ссылку /etc/hosts 
-=======
-* * * * 6,0 cp /etc/hostson /etc/hosts
->>>>>>> origin/main
